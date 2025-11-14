@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       release_tag:
-        required: 1.0.0
+        required: true
         type: string
   push:
     branches:
